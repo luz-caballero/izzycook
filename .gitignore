@@ -1,0 +1,9 @@
+# Ignore les fichiers de WordPress non nécessaires
+wp-content/uploads/
+wp-content/cache/
+wp-content/backups/
+wp-content/languages/
+wp-content/plugins/
+wp-content/themes/
+*.log
+*.sql
