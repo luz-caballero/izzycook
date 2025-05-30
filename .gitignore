@@ -3,7 +3,11 @@ wp-content/uploads/
 wp-content/cache/
 wp-content/backups/
 wp-content/languages/
-wp-content/plugins/
-wp-content/themes/
+
+# Ne pas ignorer les plugins et les thèmes personnalisés
+# (si vous avez des plugins ou thèmes personnalisés à inclure dans Git)
+!wp-content/plugins/
+!wp-content/themes/
+
 *.log
 *.sql
