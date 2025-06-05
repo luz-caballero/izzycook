@@ -4,6 +4,9 @@ wp-content/cache/
 wp-content/backups/
 wp-content/languages/
 
+# Ignore le dossier ".ansible-venv/" dans Git
+.ansible-venv/
+
 # Ne pas ignorer les plugins et les thèmes personnalisés
 # (si vous avez des plugins ou thèmes personnalisés à inclure dans Git)
 !wp-content/plugins/
